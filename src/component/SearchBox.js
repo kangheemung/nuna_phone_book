@@ -4,13 +4,12 @@ import{Row,Col,Form,Button} from "react-bootstrap";
 const SearchBox = () => {
   return (
     <Row>
-      <Col lg={10}>
+      <Col lg={2}>
         <Form.Control type="text" placeholder="name" />
       </Col>
-      <Col lg={2}>
+      <Col lg={3}>
         <Button>찾기</Button>
       </Col>
-      
     </Row>
   )
 }
