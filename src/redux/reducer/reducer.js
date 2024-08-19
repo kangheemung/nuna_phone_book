@@ -14,8 +14,8 @@ function reducer(state = initialState,action){
                     {
                         name:
                         payload.name,
-                        phonenumber:
-                        payload.phonenumber
+                        phoneNumber:
+                        payload.phoneNumber
                     },
                 ],
             };
