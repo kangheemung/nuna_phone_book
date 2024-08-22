@@ -1,3 +1,17 @@
+*{margin: 0;}
+.App{
+  background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+
+}
+.top_head{margin-top: 10em;
+margin-bottom: 1em;
+font-size:30px ;
+color: aliceblue;
+}
 .title{
   text-align: center;
 }

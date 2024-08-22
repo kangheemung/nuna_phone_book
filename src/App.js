@@ -15,7 +15,7 @@ function App() {
   //전화번호나 이름으로 검색창에 입력하고 버튼을 누르면
   return (
     <div className="App">
-  <div><h1 className='title'>Phone book</h1></div>
+  <div className='top_head'><h1 className='title'>Phone book</h1></div>
   <Container>
     <Row>
       <Col>
