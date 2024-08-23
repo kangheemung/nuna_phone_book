@@ -15,8 +15,11 @@ function App() {
   //전화번호나 이름으로 검색창에 입력하고 버튼을 누르면
   return (
     <div className="App">
-  <div className='top_head'><h1 className='title'>Phone book</h1></div>
-  <Container>
+  <div className='top_head'>
+    <h1 className='title'>Phone book</h1>
+  </div>
+  <Container className="container-background">
+  <div className="body_contain">
     <Row>
       <Col>
        <ContactForm />
@@ -25,7 +28,8 @@ function App() {
       <ContactList />
       </Col>
     </Row>
-    <div></div>
+</div>
+
   </Container>
     </div>
   );

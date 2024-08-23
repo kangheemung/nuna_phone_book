@@ -28,7 +28,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div>
+        <div className='Form_box'>
             <Form onSubmit={addContact}>
                 <Form.Group className="mb-3" controlId="formName">
                     <Form.Label>이름</Form.Label>
@@ -43,7 +43,7 @@ const ContactForm = () => {
                     value={phoneNumber === 0 ? '' : phoneNumber}
                     onChange={(e)=>setPhoneNumber(e.target.value)}  />
                 </Form.Group>
-                <Button variant="primary" type="submit" onClick={(e) => {
+                <Button variant="btn btn-light" type="submit" onClick={(e) => {
                     e.preventDefault();
                     addContact(e);
                     setName('');

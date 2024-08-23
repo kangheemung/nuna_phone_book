@@ -23,7 +23,7 @@ const SearchBox = () => {
           />
         </Col>
         <Col lg={3}>
-          <Button type = "submit"> 찾기 </Button>
+        <button type="button" class="btn btn-light">찾기 </button>
         </Col>
       </Row>
    </Form>
