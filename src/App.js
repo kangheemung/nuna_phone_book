@@ -19,7 +19,6 @@ function App() {
     <h1 className='title'>Phone book</h1>
   </div>
   <Container className="container-background">
-  <div className="body_contain">
     <Row>
       <Col>
        <ContactForm />
@@ -28,7 +27,6 @@ function App() {
       <ContactList />
       </Col>
     </Row>
-</div>
 
   </Container>
     </div>

@@ -1,26 +1,27 @@
-*{margin: 0;}
+*{
+  margin: 0;
+}
 .App{
-  background-color: pink;
+    background-color: pink;
     display: flex;
     flex-direction: column;
     height: 100vh;
     color: #fff;
-
 }
 .container-background {
-  padding: 3em;
+  padding: 5px;
   border-radius: 15%;
   border:4px, solid rgb(253, 211, 218);
   background-color: rgb(253, 211, 218);;
   position: 'relative';
-  height:700px;
+  height:500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .Form_box{
   position: 'relative';
-}
-.search-form{
-padding: 1em;
 }
 .top_head{
   margin-top: 5em;
@@ -28,6 +29,7 @@ padding: 1em;
   font-size:30px ;
   color: aliceblue;
 }
+
 .title{
   text-align: center;
 }
@@ -36,9 +38,5 @@ padding: 1em;
 }
 .body_contain {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 

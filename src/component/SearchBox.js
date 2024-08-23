@@ -14,7 +14,7 @@ const SearchBox = () => {
    return (
     <Form onSubmit = { searchByName } className = "search-form">
       <Row>
-        <Col lg={2}>
+        <Col lg={6}>
           <Form.Control
             type="text"
             placeholder="name"
