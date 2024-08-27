@@ -2,6 +2,7 @@
 let initialState = {
     contactList:[],
     keyword: "",
+    completeContactList: [],
 };
 
 function reducer(state = initialState, action){
@@ -22,6 +23,15 @@ function reducer(state = initialState, action){
             };
             case "SEARCH_BY_USERNAME":
                 return { ...state, keyword: payload.keyword };
+                case "FETCH_ALL_CONTACTS":
+                    if (payload && payload.completeContactList) {
+                        return {
+                            ...state,
+                            completeContactList: action.payload
+                          };
+                    } else {
+                        return state; // Handle the case where payload or completeContactList is undefined
+                    }
               default:
                 return { ...state };
     }

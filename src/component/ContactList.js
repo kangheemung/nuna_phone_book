@@ -20,11 +20,12 @@ const ContactList = () => {
     <div>
      <SearchBox />
      <div className="contact-list">
-        num:{filteredList.length}
+        찾은사람:{filteredList.length}
         {filteredList.map((item, index) => (
           <ContactItem item={item} key={index}/>
         ))}
       </div>
+   
     </div>
   );
 };

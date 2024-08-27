@@ -8,6 +8,12 @@
     height: 100vh;
     color: #fff;
 }
+.container{
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  height: 100vh; 
+}
 .container-background {
   padding: 5px;
   border-radius: 15%;
@@ -15,28 +21,30 @@
   background-color: rgb(253, 211, 218);;
   position: 'relative';
   height:500px;
-  display: flex;
   align-items: center;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.Form_box{
-  position: 'relative';
-}
+
 .top_head{
   margin-top: 5em;
   margin-bottom: 1em;
   font-size:30px ;
   color: aliceblue;
 }
-
+.contact-list{
+text-align: center;
+}
+.contactItem_box{
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
 .title{
   text-align: center;
 }
 .btn{
   margin-top: 1em;
 }
-.body_contain {
-  position: absolute;
-}
+
 
